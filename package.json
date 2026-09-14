@@ -1,0 +1,13 @@
+{
+  "name": "radix-it-consulting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing site for radix-it-consulting.com, served via Cloudflare Workers Static Assets.",
+  "scripts": {
+    "dev": "wrangler dev --ip 127.0.0.1 --port 8787 --persist-to /tmp/radix-wrangler-state",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.131.2"
+  }
+}
