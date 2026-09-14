@@ -1,0 +1,17 @@
+{
+  "name": "Radix IT Consulting",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "wrangler-dev",
+      "command": "npm run dev",
+      "description": "Cloudflare Workers Static Assets dev server for the marketing site on http://127.0.0.1:8787. Wrangler's local state is persisted outside the repo (assets.directory is the repo root) to avoid a file-watcher reload loop."
+    }
+  ],
+  "ports": [
+    {
+      "name": "wrangler-dev",
+      "port": 8787
+    }
+  ]
+}

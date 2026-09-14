@@ -3,3 +3,7 @@ wrangler.jsonc
 .git
 .wrangler
 README.md
+node_modules
+package.json
+package-lock.json
+.cursor
